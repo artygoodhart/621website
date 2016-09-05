@@ -1,0 +1,292 @@
+.full-page-section{
+  position: relative;
+  overflow: hidden!important;
+  height: 100vh!important;
+}
+
+.purple-line{
+    background-color: rgba(69, 35, 81, 1);
+    width: 40px;
+    margin-left: 0px;
+    height: 100vh;
+    position: absolute;
+    z-index: 2;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.half-screen-img{
+    overflow:hidden;
+    width: 100%;
+    height: 140%;
+}
+
+.responsive-container-text{
+  flex:1;
+}
+
+.flex{
+  display: flex;
+}
+
+
+.text-container{
+  width: 80%;
+  margin: auto;
+  padding: 10px 50px 50px 50px;
+}
+
+.spacing{
+  padding-top: 10px;
+}
+
+
+
+
+
+/*FONT + COLORS + TEXT */
+
+.text-center{
+  text-align: center;
+}
+
+.justified{
+  text-align: justify;
+}
+
+.purple-font{
+  color: rgba(69, 35, 81, 1);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+.white-font{
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+.small-text{
+  font-size: 1.8vh;
+}
+
+.small-bold{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.header-font{
+  font-size: 4em;
+  font-weight: 700;
+}
+
+  /*our team*/
+
+.round-img{
+  display: block;
+  height: 20vh;
+  border-radius: 50%;
+  margin: 0 auto;
+  padding-left: 10px;
+}
+
+.header-padding{
+  padding: 10px 0px;
+}
+
+.our-team-text{
+  padding-bottom: 10px;
+  padding-right: 50px;
+  height: 25vh;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.half-screen-img-right{
+  height: 100vh;
+  overflow: hidden;
+}
+/*pioneering students*/
+.ps-right{
+  height: 100%;
+  background-color: #2d1c34;
+}
+
+.values-png{
+  display: block;
+  margin: 0 auto;
+  height: 40vh;
+}
+
+.comment-png{
+  height: 60%;
+  margin-top: 30px;
+}
+
+/*quote page*/
+
+.whole-page-image{
+  height: 100vh;
+  background-image: url("Photos/drama.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.quotes{
+
+}
+
+.left-quote{
+  margin-top: -10vh;
+  position: absolute;
+  font-size: 80vh;
+  color: rgba(69, 35, 81, 1);
+  font-family: times;
+}
+.right-quote{
+  position: absolute;
+  font-size: 80vh;
+  color: rgba(69, 35, 81, 1);
+  font-family: times;
+}
+
+.quote{
+  position: absolute;
+}
+
+/*The six 21 diploma*/
+
+.diploma-png{
+  height: 60vh;
+}
+
+.wide-text-container{
+  width: 80%;
+  margin: auto;
+}
+
+.box{
+  width: 90%;
+  float: right;
+  height: 25vh;
+  border-top-left-radius: 5vh;
+
+}
+.orange{
+  background-color: #b1826d;
+  margin-top: 10vh;
+}
+.green{
+  background-color: #889875;
+  margin-top: 5vh;
+}
+.blue{
+  background-color: #7d9391;
+  margin-top: 5vh;
+}
+
+.box-content{
+  height: 100%;
+  width: 100%;
+
+}
+
+.box-text{
+  margin-left: 15%;
+  margin-top: 2vh;
+  text-align: justify;
+  margin-right: 5%
+}
+
+
+.box-png{
+  margin-left: -0.5px;
+  margin-top: -0.7px;
+  height: 10vh;
+  position: absolute;
+}
+
+/*Our Courses*/
+.purple-line-big{
+  width:100%;
+  background-color: purple;
+  height: 100%
+}
+
+.vertical-text {
+	transform: rotate(90deg);
+	transform-origin: left top 0;
+}
+
+/*Pioneering Teaching */
+
+.top-image{
+
+  height: 48vh;
+  background-image: url("Photos/explanation.jpg");
+  background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  position: relative;
+}
+
+.separating-purple-line{
+  width: 100%;
+  height: 4vh;
+  background-color: rgba(69, 35, 81, 1);
+}
+
+.bottom-image{
+  height: 48vh;
+  background-image: url("Photos/maths.jpg");
+  background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  position: relative;
+}
+
+/*Real World Learning*/
+
+.rel{
+   height: 100vh;
+   overflow: hidden;
+   text-align: center;
+}
+
+.centered-half-screen-image{
+  left: 50%;
+  margin-left: -100%;
+  position: relative;
+  width: auto !important;
+  height: 100% !important;
+  z-index: 1;
+
+}
+
+/*How Do I apply + Contact*/
+
+.full-page-container{
+  height: 100vh;
+  text-align: center;
+}
+
+.how-to-apply{
+  display: block;
+  height: 85vh;
+  width: 90%;
+  margin: auto;
+}
+
+.purple-background{
+  height: 100vh;
+  background-color: #392541;
+}
+
+.logo-small{
+  margin: 30px 0px;
+  height: 20vh;
+}
