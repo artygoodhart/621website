@@ -1,6 +1,4 @@
-.who-are-we{
-  background-color: white;
-}
+
 .full-page-section{
   position: relative;
   overflow: hidden!important;
@@ -24,7 +22,7 @@
 .half-screen-img{
     overflow:hidden;
     width: 100%;
-    height: 140%;
+    height: 100vh;
 }
 
 .responsive-container-text{
@@ -191,26 +189,31 @@
   background-repeat: no-repeat;
 }
 
-.quotes{
+.quote-box{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
 
 }
 
 .left-quote{
-  margin-top: -10vh;
-  position: absolute;
-  font-size: 80vh;
-  color: rgba(69, 35, 81, 1);
-  font-family: times;
+  margin-top: 4vh!important;
+  height: 25vh;
+  margin-top: 0px;
+  display: block;
 }
 .right-quote{
-  position: absolute;
-  font-size: 80vh;
-  color: rgba(69, 35, 81, 1);
-  font-family: times;
+
+  height: 25vh;
+
+
 }
 
 .quote{
-  position: absolute;
+
+
+  z-index: 2;
+
 }
 
 /*The six 21 diploma*/
@@ -266,10 +269,49 @@
 }
 
 /*Our Courses*/
+
+.rotate {
+
+/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+.rotated-text{
+  color: white;
+  font-weight: 700;
+  position: relative;
+  font-size: 30px;
+  margin-right: -49vw;
+  margin-top: 10vw;
+  z-index: 2;
+  text-align: center;
+}
+
 .purple-line-big{
-  width:100%;
+  width: 10vw;
   background-color: #392541;
-  height: 100%
+  margin-right: 0px;
+  height: 100vh;
+  float: right;
+  flex:1;
+}
+
+.oc-text{
+  width: 40vw;
+  display: flex;
 }
 
 .oc-header{

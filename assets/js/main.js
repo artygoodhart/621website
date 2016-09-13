@@ -1,3 +1,7 @@
+$(document).ready(function() {
+    $('#fullpage').fullpage();
+});
+
 function dropFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -43,7 +47,7 @@ $(document).ready(function(){
 $(window).scroll(function() {
   if (Array.prototype.some.call($('.button-change'), function(element) {
   	scrollPosition = $(window).scrollTop();
-    elementTop = $(element).offset().top;
+    elementTop = $(element).offset().top - 80;
     elementBottom = $(element).outerHeight() + elementTop;
     if (scrollPosition > elementTop && scrollPosition < elementBottom) {
       return true;
@@ -56,4 +60,10 @@ $(window).scroll(function() {
   } else {
   	$('#dropbtn').css('color', '#fff');
   }
+});
+
+$('#dropbtn').click(function(e){
+    $('.dropdown-content').fadeIn('slow', function(){
+        $('#bank').fadeOut('slow');
+    });
 });

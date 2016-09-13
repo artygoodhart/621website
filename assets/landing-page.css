@@ -15,6 +15,7 @@
   border-radius: 3px;
 }
 
+
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: fixed;
@@ -30,6 +31,7 @@
   position: absolute;
   background-color: rgba(0,0,0,0.8);
   right: 0px;
+  width: 20vw;
   min-width: 250px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   border-radius: 3px;
@@ -47,13 +49,21 @@
   }
 }
 
-
+#dropbtn:active,
+#dropbtn:focus,
+#dropbtn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
 
 
 /* Links inside the dropdown */
 .dropdown-content a {
   color: white;
   padding: 12px 16px;
+  text-align: center;
   text-decoration: none;
   display: block;
 }
