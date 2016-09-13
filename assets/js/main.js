@@ -39,3 +39,21 @@ $(document).ready(function(){
     } // End if
   });
 });
+
+$(window).scroll(function() {
+  if (Array.prototype.some.call($('.button-change'), function(element) {
+  	scrollPosition = $(window).scrollTop();
+    elementTop = $(element).offset().top;
+    elementBottom = $(element).outerHeight() + elementTop;
+    if (scrollPosition > elementTop && scrollPosition < elementBottom) {
+      return true;
+    }
+    else {
+      return false;
+    }
+  })) {
+  	$('#dropbtn').css('color', '#222');
+  } else {
+  	$('#dropbtn').css('color', '#fff');
+  }
+});
