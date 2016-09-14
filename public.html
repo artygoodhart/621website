@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -22,9 +23,28 @@
   <link rel="stylesheet" type="text/css" href="assets/landing-page.css">
   <link rel="stylesheet" type="text/css" href="assets/responsive.css">
   <link rel="stylesheet" type="text/css" href="assets/jquery.fullpage.min.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 
 </head>
 <body>
+
+  <div class="dropdown right-margin">
+    <button onclick="dropFunction()" id="dropbtn">  <i class="fa fa-bars" aria-hidden="true"> </i>  </button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#page1" class="intro-text">Who are we?</a>
+      <hr class="dropdown-separator">
+      <a href="#page2" class="intro-text">Our team</a>
+      <hr class="dropdown-separator">
+      <a href="#page3" class="intro-text">The Six21 Diploma</a></li>
+      <hr class="dropdown-separator">
+      <a href="#ourcourses" class="intro-text">Our Courses</a>
+      <hr class="dropdown-separator">
+      <a href="#howtoapply" class="intro-text">How to apply</a>
+      <hr class="dropdown-separator">
+      <a href="#contactus" class="intro-text">Contact us </a>
+    </div>
+
+  </div>
 
   <div id="fullpage">
 
@@ -32,23 +52,7 @@
 
     <div class="landing-page section">
       <div class="container-fluid">
-        <div class="dropdown right-margin">
-          <button onclick="dropFunction()" id="dropbtn">  <i class="fa fa-bars" aria-hidden="true"> </i>  </button>
-          <div id="myDropdown" class="dropdown-content">
-            <a href="#whoarewe" class="intro-text">Who are we?</a>
-            <hr class="dropdown-separator">
-            <a href="#ourteam" class="intro-text">Our team</a>
-            <hr class="dropdown-separator">
-            <a href="#diploma" class="intro-text">The Six21 Diploma</a></li>
-            <hr class="dropdown-separator">
-            <a href="#ourcourses" class="intro-text">Our Courses</a>
-            <hr class="dropdown-separator">
-            <a href="#howtoapply" class="intro-text">How to apply</a>
-            <hr class="dropdown-separator">
-            <a href="#contactus" class="intro-text">Contact us </a>
-          </div>
 
-        </div>
         <div class="row">
           <div class="text-center">
             <h2 >
@@ -62,7 +66,7 @@
 
     <!-- ---------- WHO ARE WE ---------- -->
 
-    <div class="full-page-section button-change section">
+    <div class="full-page-section button-change section" data-anchor="page1">
       <div id="whoarewe"></div>
 
       <div class="row flex">
@@ -73,7 +77,7 @@
           <div class="purple-line">
           </div>
 
-          <div class="text-container purple-font">
+          <div class="wide-text-container purple-font">
             <h3 class="header-font">
               Who are we?
             </h3>
@@ -116,51 +120,52 @@
       </div>
     </div>
 
-      <!-- ---------- OUR TEAM ---------- -->
+    <!-- ---------- OUR TEAM ---------- -->
 
-    <div class="full-page-section section">
+    <div class="full-page-section section" data-anchor="page2">
       <div id="ourteam"></div>
-      <div class="row">
-        <div class="col-md-7 nopadding">
+      <div class="row flex">
+        <div class="responsive-container-text">
           <h3 class="header-font text-center header-padding purple-font">
             Our team
           </h3>
-          <div class="row">
-            <div class="col-md-4">
+          <div class="row nopadding ">
+            <div class="col-xs-4  ">
               <section>
                 <img class="round-img" src="assets/Photos/peterhyman.jpg">
               </section>
-
-
             </div>
-            <div class="col-md-8 our-team-text small-text justified purple-font">
+            <div class="col-xs-8 our-team-text small-text justified purple-font">
               Lorem ipsum dolor sit amet,consectetur adipiscing elit. Suspendisse semper dapibus tortor, nec lacinia lacus tempor et. Sed quis ante egestas, tincidunt ipsum quis, interdum velit. Donec porta at leo id pellentesque. Cras aliquet sollicitudin eros eget luctus.Vestibulum vel vestibulum arcu, ac consectetur eros. Nullam vel arcu felis. Cras posuere sollicitudin malesuada.
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-4">
+          <div class="row nopadding">
+            <div class="col-xs-4 center-img">
               <img class="round-img" src="assets/Photos/peterhyman.jpg">
 
             </div>
-            <div class="col-md-8 small-text our-team-text justified purple-font">
+            <div class="col-xs-8 small-text our-team-text justified purple-font">
               Lorem ipsum dolor sit amet,consectetur adipiscing elit. Suspendisse semper dapibus tortor, nec lacinia lacus tempor et. Sed quis ante egestas, tincidunt ipsum quis, interdum velit. Donec porta at leo id pellentesque. Cras aliquet sollicitudin eros eget luctus.Vestibulum vel vestibulum arcu, ac consectetur eros. Nullam vel arcu felis. Cras posuere sollicitudin malesuada.
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-4">
+          <div class="row nopadding">
+            <div class="col-xs-4 center-img">
               <img class="round-img" src="assets/Photos/peterhyman.jpg">
 
             </div>
-            <div class="col-md-8 small-text our-team-text justified purple-font" >
+            <div class="col-xs-8 small-text our-team-text justified purple-font" >
               Lorem ipsum dolor sit amet,consectetur adipiscing elit. Suspendisse semper dapibus tortor, nec lacinia lacus tempor et. Sed quis ante egestas, tincidunt ipsum quis, interdum velit. Donec porta at leo id pellentesque. Cras aliquet sollicitudin eros eget luctus.Vestibulum vel vestibulum arcu, ac consectetur eros. Nullam vel arcu felis. Cras posuere sollicitudin malesuada.
             </div>
           </div>
         </div>
-        <div class="col-md-5 nopadding">
+        <div class="">
           <div class="content">
             <div class="purple-line">
             </div>
-            <img class="half-screen-img-right" src="assets/Photos/groupteaching.jpg">
+            <div class="half-screen-img-right">
+
+            </div>
+
           </div>
         </div>
       </div>
@@ -168,7 +173,7 @@
 
     <!-- ---------- PIONEERING STUDENTS ---------- -->
 
-    <div class="full-page-section section">
+    <div class="full-page-section section" data-anchor="page3">
       <div id="tester">
         <div class="row">
           <div class="col-md-6 nopadding ps-left purple-font">
@@ -201,7 +206,6 @@
                     the values that drive you through life
                   </p>
                 </div>
-
               </div>
               <img class="triangle" src="assets/Photos/triangle.png" />
               <div class="flow-box fade-color-2">
@@ -238,7 +242,6 @@
                     of great people to make the ideas come to life
                   </p>
                 </div>
-
               </div>
               <img class="triangle" src="assets/Photos/triangle.png" />
               <div class="flow-box fade-color-5">
@@ -264,8 +267,6 @@
                   </p>
                 </div>
               </div>
-
-
             </div>
           </div>
         </div>
@@ -277,17 +278,12 @@
     <div class="full-page-section section">
       <div class="whole-page-image">
         <div class="quote-box">
-
           <img src="assets/Photos/right-quote.png" class="right-quote" />
-
           <p class="quote-font white-font quote">
             A really passionate <br> quote would be <br> great here!
           </p>
           <img src="assets/Photos/left-quote.png" class="left-quote" />
-
-
         </div>
-
       </div>
     </div>
 
@@ -302,9 +298,6 @@
           </p>
           <img src="assets/Photos/diploma.png" class="diploma-png" />
         </div>
-
-
-
       </div>
 
       <div class="col-md-6 purple-background">
@@ -318,11 +311,8 @@
             <p class="white-font small-text">
               <strong>EXTENDED PROJECT QUALIFICATION (EPQ)</strong><br>
               All students will complete the EPQ, which is highly respected by universities and gives you the chance to work independently on a topic you are passionate about (and it's worth half an A-level)
-
             </p>
           </div>
-
-
         </div>
         <div class="box green">
           <img src="assets/Photos/green-comment.png" class="box-png " />
@@ -350,10 +340,7 @@
             </p>
           </div>
         </div>
-
-
       </div>
-
     </div>
 
     <!-- ---------- OUR COURSES ---------- -->
@@ -370,22 +357,14 @@
             <div class="rotate rotated-text">
               <p>
                 EXTENDED PROJECT QUALIFICATION
-
               </p>
             </div>
           </div>
-
           <div class="col-xs-2 nopadding">
             <div class="purple-line-big">
-
-
-
             </div>
           </div>
         </div>
-
-
-
       </div>
       <div class="col-md-6 nopadding purple-font">
         <h4 class="oc-header left-column">HUMANITIES</h4>
@@ -397,19 +376,14 @@
             Government and Politics <br> Spanish
           </div>
         </div>
-
-
         <div class="row background-blue nopadding">
           <div class="row subject-text nopadding line-hieght">
-
             <div class="col-md-6 left-column inside-padding">
               Economics <br> Psychology
             </div>
             <div class="col-md-6 inside-padding">
               Geography <br> Business
             </div>
-
-
           </div>
         </div>
         <h4 class="oc-header left-column">SCIENCES & MATHS</h4>
@@ -425,7 +399,6 @@
           <div class="row subject-text nopadding line-hieght">
             <div class="col-md-6 left-column inside-padding">
               Design & Technology <br> Music Technology
-
             </div>
             <div class="col-md-6 inside-padding">
               Creative Digital Media (BTEC) <br> PE
@@ -436,16 +409,12 @@
         <div class="row subject-text nopadding line-hieght">
           <div class="col-md-6 left-column">
             Art <br> Drama
-
           </div>
           <div class="col-md-6">
             Photography <br> Music
           </div>
         </div>
-
-
       </div>
-
     </div>
 
     <!-- ---------- PIONEERING TEACHING ---------- -->
@@ -464,11 +433,9 @@
               Pioneering taching
             </h3>
             <div class="who-are-we-text justified small-text">
-
               <p>
                 School 21 is already world famous for its high-quality and cutting edge teaching with articles appearing in multiple media outlets including the BBC, Guardian and the Financial Times. Teachers and school leaders have visited from as far away as [insert place here] to see our teaching in practice.<br>
                 <div class="spacing"></div>
-
                 At Six21, we will build on that legacy, incorporating the best pedagogy from schools and universities internationally. You will have a mixture of university-style lectures, including from cutting-edge experts outside the school, seminars, small group and 1:1 sessions. You will participate in Harkness debates, in genuine research and in socratic dialogue as you engage with your sixth form studies on the deepest possible level.
               </p>
             </div>
@@ -485,12 +452,10 @@
           <div class="text-container purple-font">
             <h3 class="header-font">Real world learning</h3>
             <div class="who-are-we-text justified small-text">
-
               <p>
                 All of your learning at Six21 will be designed around your needs and tailored to your individual aspirations. This will include learning beyond the classroom such as collaborating in research with a university, ongoing and meaningful medical work expereince and completing genuine projects for partner organisations. Through these experiences you will have the opportunities to begin creating your own personal networks, learn how to create and sustain long-lasting change and develop your leaership and teamworking abilities.
               </p>
             </div>
-
           </div>
         </div>
         <div class="col-md-5 nopadding rel">
@@ -533,8 +498,6 @@
       <div class="col-md-6 full-page-container">
         <h3 class="header-font purple-font">How do I apply?</h3>
         <img src="assets/Photos/how-to-apply.png" class="how-to-apply" />
-
-
       </div>
       <div id="contactus"></div>
       <div class="col-md-6 purple-background white-font small-text">
@@ -542,7 +505,6 @@
           <div class="header-font">
             Contact us
           </div>
-
           <p>
             For more information, to get in touch or to apply for Six21, please visit:
             <div class="spacing"></div>
@@ -557,17 +519,9 @@
             Pitchford Street <br> London <br> E15 4RZ
           </p>
         </div>
-
-
       </div>
-
     </div>
   </div>
 
-
-
-
-
-
-
 </body>
+</html>

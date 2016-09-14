@@ -1,5 +1,6 @@
 $(document).ready(function() {
     $('#fullpage').fullpage();
+
 });
 
 function dropFunction() {

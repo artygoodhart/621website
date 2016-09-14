@@ -29,13 +29,36 @@
 
 @media (min-width : 479px) and (max-width: 768px) {
 
+  .half-screen-img{
+    display: none;
+  }
+  .half-screen-img-right{
+    display: none;
+  }
+
+  .purple-line{
+    display: none;
+  }
+
 }
 
 /* Extra Small Devices, Phones */
 @media (max-width : 479px) {
-  
+  .half-screen-img-right{
+    display: none;
+  }
+  .round-img{
+    height:15vh;
+  }
 
 
+  .half-screen-img{
+    display: none;
+  }
+
+  .purple-line{
+    display: none;
+  }
 }
 
 /* Custom, iPhone Retina */
