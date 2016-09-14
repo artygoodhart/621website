@@ -5,6 +5,11 @@
   height: 100vh!important;
 }
 
+.crunchable-page{
+  height: 100vh!important;
+  position: relative;
+}
+
 .purple-line{
     background-color: rgba(69, 35, 81, 1);
     width: 40px;
@@ -127,7 +132,7 @@
 }
 
 .ps-padding{
-  padding-top: 6vh;
+  padding-top: 4vh;
   padding-bottom: 3vh;
 }
 
@@ -138,16 +143,21 @@
 }
 
 .comment{
-  height: 10vh;
+  height: 9vh;
   position: absolute;
 }
 
+.18font{
+  font-size: 1.4vh!important;
+}
+
 .flow-box{
-  height: 10vh;
+  height: 9vh;
   background-color: white;
   border-top-left-radius: 7.5vh;
   border-bottom-left-radius: 7.5vh;
   width: 100vw;
+  margin-bottom: -0.8vh;
 }
 
 .fade-color-1{
@@ -169,8 +179,8 @@
   background-color: #607b7c;
 }
 .triangle{
-  margin: 4px 0px;
-  height: 1.5vh;
+  margin-top: 3px;
+  height: 1.2vh;
   margin-left: 3.5vh;
 }
 
@@ -254,21 +264,24 @@
 .box{
   width: 90%;
   float: right;
-  height: 25vh;
+  height: 30vh;
   border-top-left-radius: 5vh;
+}
 
+.color-box-text{
+  font-size: 1.8vh;
 }
 .orange{
   background-color: #b1826d;
-  margin-top: 10vh;
+  margin-top: 3vh;
 }
 .green{
   background-color: #889875;
-  margin-top: 5vh;
+  margin-top: 3vh;
 }
 .blue{
   background-color: #7d9391;
-  margin-top: 5vh;
+  margin-top: 3vh;
 }
 
 .box-content{
@@ -331,6 +344,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   height: 100vh;
   float: right;
   flex:1;
+
 }
 
 .oc-text{
@@ -432,5 +446,5 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
 .logo-small{
   margin: 30px 0px;
-  height: 20vh;
+  width: 60vw;
 }

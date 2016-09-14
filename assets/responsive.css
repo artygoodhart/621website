@@ -17,12 +17,29 @@
 
 }
 
+@media (max-height: 550px) {
+  .18font{
+    font-size: 1vh;
+  }
+  .ps-padding{
+    padding-top: 2vh;
+    padding-bottom: 0;
+  }
+  .flow-box{
+    height:8vh;
+  }
+  .comment{
+    height:8vh;
+  }
+}
+
 /* Small Devices, Tablets */
 @media (min-width : 768px) and (max-width: 991px) {
 
   .responsive-container-image{
     width:40vw;
   }
+
 
 
 }
