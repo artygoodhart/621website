@@ -1,44 +1,61 @@
 
 /* Large Devices, Wide Screens */
 @media (min-width : 1200px) {
-  .responsive-container-image{
-    width: 59.3vw;
-  }
+
 
 }
 
 
 /* Medium Devices, Desktops */
 @media (min-width : 992px) and (max-width: 1200) {
+
+
+}
+
+@media (max-width : 991px) {
+
   .responsive-container-image{
-    width: 50vw;
+    display: none;
+  }
+  .half-screen-img{
+    display: none;
+  }
+  .half-screen-img-right{
+    display: none;
+  }
+
+  .purple-line{
+    display: none;
+  }
+
+  .color-box-text{
+    font-size: 2.2vh;
+  }
+
+  .purple-line-big{
+    display: none;
+  }
+
+  .rotated-text{
+    display: none;
   }
 
 
 }
 
-@media (max-height: 550px) {
-  .18font{
-    font-size: 1vh;
-  }
-  .ps-padding{
-    padding-top: 2vh;
-    padding-bottom: 0;
-  }
-  .flow-box{
-    height:8vh;
-  }
-  .comment{
-    height:8vh;
-  }
-}
+
 
 /* Small Devices, Tablets */
-@media (min-width : 768px) and (max-width: 991px) {
+@media (min-width : 768px) and (max-width: 992px) {
 
-  .responsive-container-image{
-    width:40vw;
+  .small-text{
+    font-size: 2.8vh;
   }
+  .smaller-font{
+    font-size: 2.8vh;
+  }
+
+
 
 
 
@@ -46,39 +63,49 @@
 
 @media (min-width : 479px) and (max-width: 768px) {
 
-  .half-screen-img{
-    display: none;
-  }
-  .half-screen-img-right{
-    display: none;
+
+  .small-text{
+    font-size: 2.6vh;
   }
 
-  .purple-line{
-    display: none;
+  .color-box-text{
+    font-size: 1.8vh;
   }
+
 
 }
 
 /* Extra Small Devices, Phones */
 @media (max-width : 479px) {
-  .half-screen-img-right{
-    display: none;
-  }
+
   .round-img{
     height:15vh;
   }
 
-
-  .half-screen-img{
-    display: none;
+  .color-box-text{
+    font-size: 1.7vh;
   }
 
-  .purple-line{
-    display: none;
-  }
 }
 
 /* Custom, iPhone Retina */
 @media (min-width : 320px) and (max-width: 478px)  {
+
+}
+
+@media (max-height: 550px) {
+  .smaller-font{
+    font-size: 2vh;
+  }
+  .ps-padding{
+    padding-top: 4vh;
+    padding-bottom: 0;
+  }
+  .flow-box{
+    height:9vh;
+  }
+  .comment{
+    height:9vh;
+  }
 
 }

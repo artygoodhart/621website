@@ -30,8 +30,10 @@
     height: 100vh;
 }
 
+
 .responsive-container-text{
   flex:1;
+
 }
 
 .flex{
@@ -48,7 +50,9 @@
 .spacing{
   padding-top: 10px;
 }
-
+.responsive-container-image{
+  width:55vw;
+}
 
 
 
@@ -129,6 +133,7 @@
 .ps-right{
   height: 100vh;
   background-color: #392541;
+  overflow: hidden;
 }
 
 .ps-padding{
@@ -143,16 +148,16 @@
 }
 
 .comment{
-  height: 9vh;
+  height: 10vh;
   position: absolute;
 }
 
-.18font{
-  font-size: 1.4vh!important;
+.smaller-font{
+  font-size: 2.4vh;
 }
 
 .flow-box{
-  height: 9vh;
+  height: 10vh;
   background-color: white;
   border-top-left-radius: 7.5vh;
   border-bottom-left-radius: 7.5vh;
@@ -185,7 +190,7 @@
 }
 
 .ps-text-box{
-  margin-top: 2vh;
+  margin-top: 1.8vh;
   margin-left: 3vw;
   display: inline-block;
   position: absolute;
@@ -217,22 +222,22 @@
 }
 
 .quote-font{
-  font-size: 6vh;
+  font-size: 3vw;
   font-weight: 700;
 }
 
 .left-quote{
 
-  height: 25vh;
+  height: 15vw;
   float:right;
   margin-top: 20vh;
-  margin-right: -5vw;
+  margin-right: -8vw;
 
 }
 .right-quote{
 
-  height: 25vh;
-  margin-right: 3vw;
+  height: 15vw;
+  margin-right: 5vw;
   margin-top: 40vh;
   z-index: 1;
   position: relative;
@@ -246,7 +251,7 @@
   position: relative;
   float:right;
   margin-top: 32vh;
-  margin-right: -7vw;
+  margin-right: -12vw;
 
 }
 
@@ -259,6 +264,7 @@
 .wide-text-container{
   width: 80%;
   margin: auto;
+   padding-left: 10px;
 }
 
 .box{
@@ -269,7 +275,7 @@
 }
 
 .color-box-text{
-  font-size: 1.8vh;
+  font-size: 1.9vh;
 }
 .orange{
   background-color: #b1826d;
@@ -291,6 +297,7 @@
 }
 
 .box-text{
+
   margin-left: 15%;
   margin-top: 2vh;
   text-align: justify;
@@ -306,6 +313,10 @@
 }
 
 /*Our Courses*/
+
+.our-course{
+  overflow: hidden;
+}
 
 .rotate {
 
@@ -330,7 +341,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   color: white;
   font-weight: 700;
   position: relative;
-  font-size: 30px;
+  font-size: 3vh;
   margin-right: -49vw;
   margin-top: 10vw;
   z-index: 2;
@@ -369,15 +380,18 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
 .line-hieght{
-  line-height: 4.5vh;
+  line-height: 4vh;
 }
 
 .inside-padding{
-  margin: 40px 0px;
+  margin: 4vh 0px;
 }
 
 .subject-text{
   font-size: 2.5vh;
+}
+.bottom-padding{
+  margin-bottom: 3vh!important;
 }
 /*Pioneering Teaching */
 
@@ -446,5 +460,5 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
 .logo-small{
   margin: 30px 0px;
-  width: 60vw;
+  width: 20vw;
 }
