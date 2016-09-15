@@ -11,6 +11,8 @@
   position: relative;
 }
 
+
+
 .purple-line{
     background-color: rgba(69, 35, 81, 1);
     width: 40px;
@@ -260,7 +262,11 @@
 
 .diploma-png{
   width: 100%;
+  padding: 20px;
+}
 
+.middle{
+  text-align: center;
 }
 
 .wide-text-container{
@@ -311,6 +317,7 @@
   margin-left: -0.5px;
   margin-top: -0.7px;
   height: 10vh;
+  max-height: 70px;
   position: absolute;
 }
 
@@ -318,6 +325,7 @@
 
 .our-course{
   overflow: hidden;
+
 }
 
 .rotate {
@@ -364,6 +372,23 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   width: 40vw;
   display: flex;
 }
+
+.col10{
+  position: relative;
+  width: 83.33333%;
+  float:left;
+  display: block;
+}
+
+.col2{
+  position: relative;
+  width: 16.66666;
+  float: right;
+    display: block;
+    flex: 1;
+}
+
+
 
 .oc-header{
   font-size: 4vh;
