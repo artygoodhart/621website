@@ -40,6 +40,23 @@
     display: none;
   }
 
+  .responsive-margin{
+    width: 90vw;
+  }
+
+  .logo-small{
+    width: 40vw;
+  }
+
+  #dropbtn{
+    display: none;
+  }
+
+
+  #mobile-dropbtn{
+    display: inline-block;
+  }
+
 
 }
 
@@ -107,6 +124,21 @@
     margin-left: 25%;
   }
 
+  .quote-font{
+    font-size: 7vw;
+  }
+
+  .right-quote{
+    height:20vw;
+  }
+
+  .left-quote{
+    height: 20vw;
+
+  }
+
+
+
 
 }
 
@@ -128,6 +160,13 @@
   }
   .comment{
     height:9vh;
+  }
+
+}
+
+@media (min-height : 850px){
+  .small-text{
+    font-size: 1.8vh;
   }
 
 }
